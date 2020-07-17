@@ -86,8 +86,8 @@ const Board = () => {
                 (getStatus() === "The game ended in a draw!" ? "draw" : "winner") : (playerXIsNext ? "X" : "O")}`}>
 
                 <div className="logo">
-                    <img src={r2h} alt="r2h logo" />
-                    <img src={fellowship} alt="fellowship" />
+                    <img className="r2hLogo" src={r2h} alt="r2h logo" />
+                    <img className="fellowshipIMG" src={fellowship} alt="fellowship" />
                 </div>
                 <div className="status">
                     {getStatus()}
